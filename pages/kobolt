@@ -1,0 +1,189 @@
+<html>
+<head>
+	<title>Kobolt Magazine| Ansök</title>
+
+	<meta charset="utf-8"/>
+	<meta name="description" content="Ansök. Kobolt Magazine">
+  <meta name="author" content="diegofria.com"/>
+  <meta name="keywords" content="kobolt magazine, kobolt, art, stockholm, sweden"/>
+
+  <link href="../css/default.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<link rel="icon" 
+      href="../images/favicon.ico">
+
+</head>
+
+<style type="text/css">
+
+
+
+
+
+.active {
+	text-decoration: underline;
+}
+
+
+/*
+.container p{
+	-moz-columns:2;
+	-webkit-columns:2;
+	columns:2;
+}
+*/
+
+
+
+#content {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+#list-left{
+	width: 200px;
+	float: left;
+	font-family: 'bebas_neueregular', helvetica;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+
+#list-right{
+	width: 200px;
+	float: left;
+	font-family: 'bebas_neueregular', helvetica;
+	font-size: 20px;
+
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+
+.container2{
+  width: 444px;
+  margin: 0 auto;
+  padding-top: 2px;
+  padding-left: 88px;
+  float: left;
+  text-align: justify;
+}
+.container3{
+  width: 444px;
+  margin: 0 auto;
+  padding-top: 2px;
+  padding-left: 88px;
+  float: left;
+  text-align: justify;
+}
+
+</style>
+
+
+
+
+
+<body>
+
+	<script type="text/javascript" src="../js/main.js"></script>
+
+
+
+<div id="logo">
+<a href="kobolt.html"><img  alt="kobolt magazine logo" src="../images/4logo.png"></a>
+</div>
+
+
+
+
+
+<div id="navo">
+    <!--Nav start -->
+  <ul>
+    <a href="kobolt.html">KOBOLT</a>
+    <a href="tidningen.html">TIDNINGEN</a>
+    <a class="active" href="ansok.html">ANSÖK</a>
+    <a href="projekt.html">PROJEKT</a>
+    <a href="samarbeten.html">SAMARBETEN</a>
+    <a href="kontakt.html">KONTAKT</a>
+
+    
+  </ul>
+  </div>
+
+
+<div id="content">
+
+
+<div id="list-left">
+
+<ul>
+   <li> <a id="show" class="active" href="#">SÅ HÄR ANSÖKER DU</a> </li>
+   <li> <a id="hide" href="#">DET HÄR SÖKER VI</a> </li>
+   <li> <a id="third" href="#">URVALS PROCESS</a> </li>
+
+</ul>
+
+
+
+
+
+
+</div>
+
+<div class="container">
+	<p> Vill du medverka i Kobolt Magazine?
+För att ansöka till Kobolt Magazine krävs inga tidigare konstnärliga meriter. När du skickar in dina verk till oss är det viktigt att du följer vår mall så att vi så smidigt som möjligt kan publicera dina verk. 
+<br><strong>Så här gör du:</strong>
+
+Börja med att skriva en kort introducerande text om dig själv, här är ett exempel:<br>
+<li><strong>Namn:</strong> Carl Johan De Geer</li>
+<li><strong>Ort:</strong>  Stockholm</li>
+<li><strong>Ålder:</strong>   17år</li>
+<li><strong>Utbildning:</strong>  Självlärd</li>
+<strong>Kanaler:</strong>  Moderna Museet och instagram @mrdegeer 
+<li> Skriv sedan en kort text om vad du har för tanke eller mål med dina verk och din konstnärliga process.  Till exemple: ”Arbetar med fotografi och film med syfte att utöka kulturella fält genom brukskonst.” </li> <br>
+<li>Nu ska du skicka in dina verk. Det är viktigt att du bifogar dina bilder i en högupplöst kvalité, gärna i originalstorlek. Det är essentiellt att du skickar in bilderna högupplösta för att trycket ska bli så bra som möjligt. </li><br>
+Spara bilden i pdf-format. 
+<li> Slutligen, glöm inte att skicka med titel på verket och kontaktuppgifter samt kanaler du vill ha publicerade i tidningen. </li><br>
+
+
+När du gjort allt detta är det bara att skicka in! Om du är osäker på vad du vill ha med eller vad vi letar efter är det bara att maila eller klicka på ”Det här söker vi” i menyn till vänster..
+</p>
+</div>
+
+
+<div class="container2">
+
+<p>
+Kobolt Magazine letar efter dig som vill ta chansen att visa upp vad du har gjort. Vi söker allt från bildkonst eller dokumenterad preformance art. En fråga som ställs ofta är om vi anordnar nummer efter teman. Svaret är nej, vi känner att bildernas slutliga samanställning brukar bilda sitt egna mönster.  Om det skulle vara så att vi söker en viss typ av konst efter ett tema, kommer vi vara mycket tydliga med det. <br>
+Du som ansöker om en plats i ett nummer hos oss behöver inte ha någon tidigare konstnärliga meriter eller ha studerat konst. Vi söker dig som älskar det du gör och vill dela med dig av det du skapat. <br>Lycka till!
+
+</p>
+
+</div>
+
+
+<div class="container3">
+<p>
+Sista datumet för ansökan till Kobolt Magazine brukar vara ungefär en månad innan numret släpps. Det är viktigt för oss att få alla intresseanmälan i tid så vi kan återkomma med besked om du som sökande fått en säkrad plats i nästa nummer. 
+</p>
+
+</div>
+
+
+
+
+</div>
+
+</body>
+</html>
