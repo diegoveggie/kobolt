@@ -1,0 +1,505 @@
+$(document).ready(function(){
+
+
+
+
+
+
+
+
+
+//----------------------------------slider from projekt page---------------------------------------//
+
+jQuery(document).ready(function ($) {
+
+  $('#checkbox').change(function(){
+    setInterval(function () {
+        moveRight();
+    }, 3000);
+  });
+  
+	var slideCount = $('#slider ul li').length;
+	var slideWidth = $('#slider ul li').width();
+	var slideHeight = $('#slider ul li').height();
+	var sliderUlWidth = slideCount * slideWidth;
+	
+	$('#slider').css({ width: slideWidth, height: slideHeight });
+	
+	$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+	
+    $('#slider ul li:last-child').prependTo('#slider ul');
+
+    function moveLeft() {
+        $('#slider ul').animate({
+            left: + slideWidth
+        }, 200, function () {
+            $('#slider ul li:last-child').prependTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    function moveRight() {
+        $('#slider ul').animate({
+            left: - slideWidth
+        }, 200, function () {
+            $('#slider ul li:first-child').appendTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    $('a.control_prev').click(function () {
+        moveLeft();
+    });
+
+    $('a.control_next').click(function () {
+        moveRight();
+    });
+
+});    
+
+
+
+$('#slider').click(function(e){
+   e.preventDefault();
+});
+
+
+//----------------------------------slider2 from projekt page---------------------------------------//
+
+
+jQuery(document).ready(function ($) {
+
+  $('#checkbox').change(function(){
+    setInterval(function () {
+        moveRight();
+    }, 3000);
+  });
+  
+  var slideCount = $('#slider2 ul li').length;
+  var slideWidth = $('#slider2 ul li').width();
+  var slideHeight = $('#slider2 ul li').height();
+  var sliderUlWidth = slideCount * slideWidth;
+  
+  $('#slider2').css({ width: slideWidth, height: slideHeight });
+  
+  $('#slider2 ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+  
+    $('#slider2 ul li:last-child').prependTo('#slider2 ul');
+
+    function moveLeft() {
+        $('#slider2 ul').animate({
+            left: + slideWidth
+        }, 200, function () {
+            $('#slider2 ul li:last-child').prependTo('#slider2 ul');
+            $('#slider2 ul').css('left', '');
+        });
+    };
+
+    function moveRight() {
+        $('#slider2 ul').animate({
+            left: - slideWidth
+        }, 200, function () {
+            $('#slider2 ul li:first-child').appendTo('#slider2 ul');
+            $('#slider2 ul').css('left', '');
+        });
+    };
+
+    $('a.control_prev').click(function () {
+        moveLeft();
+    });
+
+    $('a.control_next').click(function () {
+        moveRight();
+    });
+
+});    
+
+
+
+$('#slider2').click(function(e){
+   e.preventDefault();
+});
+
+
+
+
+
+
+
+
+ //-------------link hiding slider2 from projekt page---------------//
+
+
+$("#slider2").hide();
+
+ $("#hide").click(function(){
+    $("#slider").hide();
+  });
+ $("#hide").click(function(){
+    $("#slider3").hide();
+  });
+  $("#hide").click(function(){
+    $("#slider2").show();
+  });
+
+
+ $("#show").click(function(){
+    $("#slider2").hide();
+  });
+ $("#show").click(function(){
+    $("#slider3").hide();
+  });
+  $("#show").click(function(){
+    $("#slider").show();
+  });
+
+
+ $("#third").click(function(){
+    $("#slider2").hide();
+  });
+ $("#show").click(function(){
+    $("#slider2").hide();
+  });
+  $("#show").click(function(){
+    $("#slider").show();
+  });
+
+
+
+
+//----------------------------------slider3 from projekt page---------------------------------------//
+
+
+jQuery(document).ready(function ($) {
+
+  $('#checkbox').change(function(){
+    setInterval(function () {
+        moveRight();
+    }, 3000);
+  });
+  
+  var slideCount = $('#slider3 ul li').length;
+  var slideWidth = $('#slider3 ul li').width();
+  var slideHeight = $('#slider3 ul li').height();
+  var sliderUlWidth = slideCount * slideWidth;
+  
+  $('#slider3').css({ width: slideWidth, height: slideHeight });
+  
+  $('#slider3 ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+  
+    $('#slider3 ul li:last-child').prependTo('#slider3 ul');
+
+    function moveLeft() {
+        $('#slider3 ul').animate({
+            left: + slideWidth
+        }, 200, function () {
+            $('#slider3 ul li:last-child').prependTo('#slider3 ul');
+            $('#slider3 ul').css('left', '');
+        });
+    };
+
+    function moveRight() {
+        $('#slider3 ul').animate({
+            left: - slideWidth
+        }, 200, function () {
+            $('#slider3 ul li:first-child').appendTo('#slider3 ul');
+            $('#slider3 ul').css('left', '');
+        });
+    };
+
+    $('a.control_prev').click(function () {
+        moveLeft();
+    });
+
+    $('a.control_next').click(function () {
+        moveRight();
+    });
+
+});    
+
+
+
+$('#slider3').click(function(e){
+   e.preventDefault();
+});
+
+
+
+
+
+
+
+
+ //-------------link hiding slider3 from projekt page---------------//
+
+
+$("#slider3").hide();
+
+ $("#hide").click(function(){
+    $("#slider").hide();
+  });
+
+  $("#hide").click(function(){
+    $("#slider3").hide();
+  });
+
+ $("#hide").click(function(){
+    $("#slider2").show();
+  });
+
+
+
+ $("#show").click(function(){
+    $("#slider2").hide();
+  });
+ $("#show").click(function(){
+    $("#slider3").hide();
+  });
+
+ $("#show").click(function(){
+    $("#slider").show();
+  });
+
+
+$("#third").click(function(){
+    $("#slider").hide();
+  });
+
+$("#third").click(function(){
+    $("#slider2").hide();
+  });
+$("#third").click(function(){
+    $("#slider3").show();
+  });
+
+
+
+
+
+
+//-----cancel all links from div  project page -----//
+$('#hide').click(function(e){
+   e.preventDefault();
+});
+
+
+$('#show').click(function(e){
+   e.preventDefault();
+});
+
+
+$('#third').click(function(e){
+   e.preventDefault();
+});
+
+
+
+
+
+
+
+ //-------------link hiding - showing from Projekt page---------------//
+
+
+  $("#hide").click(function(){
+    $(".container").hide();
+  });
+
+ $("#hide").click(function(){
+    $(".container2").show();
+  });
+
+  $("#show").click(function(){
+    $(".container").show();
+  });
+
+ $("#show").click(function(){
+    $(".container2").hide();
+  });
+
+
+
+$(".container2").hide();
+
+
+
+//----adding a class to a div-------//
+
+$("#hide").click(function(){
+  $("#hide").addClass("active");
+});
+
+$("#show").click(function(){
+  $("#show").addClass("active");
+});
+
+$("#show").click(function(){
+  $("#hide").removeClass("active");
+});
+
+$("#hide").click(function(){
+  $("#show").removeClass("active");
+});
+
+
+
+
+
+
+
+//------more js for ansök page------//
+
+$(".container3").hide();
+
+ $("#third").click(function(){
+    $(".container1").hide();
+  });
+
+ $("#third").click(function(){
+    $(".container2").hide();
+  });
+
+ $("#third").click(function(){
+    $(".container3").show();
+  });
+
+
+ $("#third").click(function(){
+    $(".container1").hide();
+  });
+
+ $("#third").click(function(){
+    $(".container2").hide();
+  });
+
+ $("#third").click(function(){
+    $(".container2").hide();
+  });
+
+ $("#hide").click(function(){
+    $(".container3").hide();
+  });
+
+ $("#third").click(function(){
+    $(".container").hide();
+  });
+
+  $("#show").click(function(){
+    $(".container3").hide();
+  });
+
+
+
+ $("#fourth").click(function(){
+    $(".container4").show();
+  });
+
+  $("#fourth").click(function(){
+    $(".container").hide();
+  });
+
+   $("#fourth").click(function(){
+    $(".container2").hide();
+  });
+
+    $("#fourth").click(function(){
+    $(".container3").hide();
+  });
+
+
+  $("#show").click(function(){
+    $(".container4").hide();
+  });
+
+    $("#hide").click(function(){
+    $(".container4").hide();
+  });
+
+  $("#third").click(function(){
+    $(".container4").hide();
+  });
+
+  $(".container4").hide();
+
+
+
+
+
+
+
+
+
+
+//---- tidningen page -- adding a class to a div-------//
+
+$("#third").click(function(){
+  $("#third").addClass("active");
+});
+
+
+$("#hide").click(function(){
+  $("#third").removeClass("active");
+});
+
+$("#hide").click(function(){
+  $("#show").removeClass("active");
+});
+
+$("#hide").click(function(){
+  $("#fourth").removeClass("active");
+});
+
+
+$("#show").click(function(){
+  $("#third").removeClass("active");
+});
+
+$("#show").click(function(){
+  $("#fourth").removeClass("active");
+});
+
+$("#third").click(function(){
+  $("#show").removeClass("active");
+});
+
+$("#third").click(function(){
+  $("#hide").removeClass("active");
+});
+
+$("#third").click(function(){
+  $("#fourth").removeClass("active");
+});
+
+
+$("#fourth").click(function(){
+  $("#fourth").addClass("active");
+});
+
+$("#fourth").click(function(){
+  $("#show").removeClass("active");
+});
+
+$("#fourth").click(function(){
+  $("#hide").removeClass("active");
+});
+
+$("#fourth").click(function(){
+  $("#third").removeClass("active");
+});
+
+
+
+
+
+//-----cancel all links from div-----//
+$('#list-left').click(function(e){
+   e.preventDefault();
+});
+
+$('.girls').click(function(e){
+   e.preventDefault();
+});
+
+
+
+});
