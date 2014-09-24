@@ -3,4 +3,4 @@ kobolt
 
 kobolt magazine
 
-www.diegofria.com
+www.koboltmagazine.com
