@@ -1,0 +1,275 @@
+<html>
+<head>
+	<title>Kobolt Magazine| Tidningen</title>
+
+	  <meta charset="utf-8"/>
+	  <meta name="description" content="Tidningen. Kobolt Magazine">
+    <meta name="author" content="diegofria.com" />
+    <meta name="keywords" content="kobolt magazine, kobolt, art, stockholm, sweden"/>
+
+    <link href="../css/default.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<link rel="icon" 
+      href="../images/favicon.ico">
+
+</head>
+
+<style type="text/css">
+
+#content {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+
+
+
+.container{
+	width: 444px;
+	margin: 0 auto;
+	padding-top: 2px;
+	padding-left: 88px;
+	float: left;
+	text-align: justify;
+}
+
+.container2{
+  width: 444px;
+  margin: 0 auto;
+  padding-top: 2px;
+  padding-left: 88px;
+  float: left;
+  text-align: justify;
+}
+.container3{
+  width: 444px;
+  margin: 0 auto;
+  padding-top: 2px;
+  padding-left: 88px;
+  float: left;
+  text-align: justify;
+}
+
+
+
+/* Creating columns is as simple as this: */
+
+
+
+/*
+.container p{
+	-moz-columns:2;
+	-webkit-columns:2;
+	columns:2;
+}
+*/
+
+
+#list-left{
+	width: 200px;
+	float: left;
+	font-family: 'bebas_neueregular', helvetica;
+	font-size: 20px;
+}
+
+
+#list-right{
+	width: 200px;
+	float: left;
+	font-family: 'bebas_neueregular', helvetica;
+	font-size: 20px;
+
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.nolink {
+  text-decoration: none;
+  font-family: times;
+  font-size: 13px;
+
+}
+
+.frontpage {
+  width: 500px;
+  margin-left: -14px;
+}
+
+
+
+</style>
+
+
+
+
+
+<body>
+
+	<script type="text/javascript" src="../js/main.js"></script>
+
+
+
+<div id="logo">
+<a href="kobolt.html"><img  alt="kobolt magazine logo" src="../images/4logo.png"></a>
+</div>
+
+
+
+
+
+<div id="navo">
+    <!--Nav start -->
+  <ul>
+    <a href="kobolt.html">KOBOLT</a>
+    <a class="active" href="tidningen.html">TIDNINGEN</a>
+    <a href="ansok.html">ANSÖK</a>
+    <a href="projekt.html">PROJEKT</a>
+    <a href="samarbeten.html">SAMARBETEN</a>
+    <a href="kontakt.html">KONTAKT</a>
+
+    
+  </ul>
+  </div>
+
+
+<div id="content">
+
+
+<div id="list-left">
+
+<ul>
+   <li> <a id="show" class="active"  href="#">NO. 1</a> </li>
+   <li> <a id="hide" href="#">NO. 2</a> </li>
+   <li> <a id="third" href="#">NO. 3</a> </li>
+   <li> <a id="fourth" href="#">NO. 4</a> </li>
+
+
+</ul>
+
+
+</div>
+
+<div class="container">
+	<p>I det första numret av Kobolt publicerade vi endast våra egna verk för att pröva på hur det i framtiden skulle se ut och om någon annan skulle vara intresserad av vad vi håller på med. 
+
+Medverkande i första numret av Kobolt Magazine var: <br>
+<a class="textlink" href="http://klaraembla.tumblr.com" target="blank">Klara Andersson Åsman</a> och
+
+<a class="textlink" href="http://saraborje.tumblr.com" target="blank">Sara Åkerman Börje</a>.
+
+</p>
+
+
+<img class="frontpage" src="../images/kobolt1.jpg">
+</div>
+
+
+<div class="container2">
+	<p> 
+Medverkande i andra numret av Kobolt var: <br>
+
+
+
+<li>  <a class="textlink" href="http://lukasklepke.prosite.com" target="blank" >Lukas Klepke</a></li> 
+<li>  <a class="textlink" href="http://williamjacobson.se" target="blank">William Jacobson</a></li>   
+<li>  <a class="textlink" href="http://humanlocomotion.tumblr.com" target="blank">Amandah Andersson</a></li>  
+<li>  <a class="textlink" href="http://vardagsbrus.com" target="blank">Frida Vega Salomonsson</a></li>   
+<li>  <a class="textlink" href="http://www.philipullman.com" target="blank">Philip Ullman</a></li> 
+<li>  <a class="textlink" href="http://godafton.tumblr.com" target="blank">Tilda Wirsén Hedengren</a></li>  
+<li>  <a class="textlink" href="http://fridasten.se" target="blank">Frida Hamberg Stén</a></li> 
+<li>  <a class="textlink" href="http://nejtack.tk" target="blank">Assar Jansson</a></li>  
+<li>  <a class="textlink" href="http://zakaro.tumblr.com" target="blank">Zak Arogundade</a></li>  
+<li>  <a class="textlink" href="http://may-matilda.tumblr.com" target="blank">Matilda Bakke</a></li>  
+<li>  <a class="textlink" href="http://gt706f.tumblr.com" target="blank">Kajsa Holm</a></li> 
+<li>  <a class="textlink" href="http://anjouart.tumblr.com" target="blank">Josefina Anjou Lilja</a></li>   
+<li>  <a class="textlink" href="http://www.elis-burrau.com" target="blank">Elis Burrau</a></li> 
+
+</p>
+<img class="frontpage" src="../images/kobolt2.jpg">
+
+</div>
+
+
+<div class="container3">
+	<p>Medverkande i tredje numret av Kobolt var:
+
+<li><a class="textlink" href="http://andreasbertman.com" target="blank">Andreas Bertman</a>  </li>
+<li><a class="textlink" href="http://elsagregersdotter.tumblr.com" target="blank">Elsa Gregersdotter</a> </li>
+<li><a class="textlink" href="http://ellenmwe.tumblr.com" target="blank">Ellen Wetterholm</a> </li>
+<li><a class="textlink" href="http://mvhhanna.tumblr.com" target="blank">Hanna Andersson Åsman</a> </li>
+<li><a class="textlink" href="http://b-i-r-d-i-e.tumblr.com" target="blank">Birdie / Stephanie Abdallah</a> </li>
+<li><a class="textlink" href="http://instagram.com/sexyfront" target="blank">Karin Kirchmeier</a> </li>
+<li><a class="textlink" href="http://radarmagazine.se/curtis" target="blank">Nora Curtis</a> </li>
+<li><a class="textlink" href="http://nejtack.tk" target="blank">Assar Jansson</a> </li>
+<li><a class="textlink" href="http://instagram.com/hugohedberg" target="blank">Hugo Hedberg</a> </li>
+<li><a class="textlink" href="http://pontusnordstrand.tumblr.com" target="blank">Pontus Nordstrand</a> </li>
+<li class="nolink">Jacob Landahl </li>
+<li class="nolink">Lydia Ericsson Wärn</li>
+<li class="nolink">Julia Wallman </li>
+
+
+</li>
+</p>
+<img class="frontpage" src="../images/kobolt3.jpg">
+
+</div>
+
+
+
+
+
+<div class="container4">
+
+<p>Medverkande i tredje numret av Kobolt var:
+<li><a class="textlink" href="http://antoniaevans.tumblr.com/" target="blank">Antonia Evans</a></li>
+<li><a class="textlink" href="http://instagram.com/nimareki" target="blank">Nina Kihlborg</a></li>
+<li><a class="textlink" href="http://www.shogohirata.com/" target="blank">Shogo Hirata</a></li>
+<li><a class="textlink" href="http://www.elis-burrau.com/" target="blank">Elis Burrau</a></li>
+<li class="nolink">Emile Van Belling</a></li>
+<li><a class="textlink" href="http://finskstinks.tumblr.com/" target="blank">Toivo Tolonen</a></li>
+<li><a class="textlink" href="http://finskstinks.tumblr.com/" target="blank">Toivo Tolonen</a></li>
+<li> <a class="textlink" href="mailto:mikaela.crantz@hotmail.com">Mikaela Cratz</a></li>
+<li><a class="textlink" href="http://www.dataregn.tumblr.com/" target="blank">Ludwig Landström</a></li>
+<li class="nolink">Lovisa Fris Åsum</li>
+<li> <a class="textlink" href="mailto:jakob.moller@icloud.com">Jakob Möller</a></li>
+<li class="nolink">Filip Lindberg</li>
+<li> <a class="textlink" href="mailto:patriciaaltsved@hotmail.com ">Patricia Altsved</a></li>
+
+</p>
+
+<img class="frontpage" src="../images/4cover.png">
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div id="list-right">
+<ul>
+   <li> <a  href="http://telegramstudios.com/?s=kobolt" target="blank">TELEGRAMSTUDIOS</a> </li>
+   <li> <a  href="https://www.adlibris.com/mondo/search/show?q=kobolt" target="blank">ADLIBRIS</a> </li>
+   <li> <a  href="https://itunes.apple.com/se/artist/kobolt-magazine/id823579558?mt=11" target="blank">ITUNES</a></li>
+
+</ul>
+</div>
+
+</div>
+
+</body>
+</html>
