@@ -1,0 +1,152 @@
+<html>
+<head>
+	<title>Kobolot Magazine| Samarbeten</title>
+
+	<meta charset="utf-8"/>
+  <meta name="description" content="Sammarbeta med Kobolt Magazine">
+  <meta name="author" content="diegofria.com" />
+  <meta name="keywords" content="kobolt, magazine, art, stockholm, sweden"/>
+
+	<meta name="description" content="Kobolt Magazine">
+    <link href="../css/default.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<link rel="icon" 
+      href="../images/favicon.ico">
+
+</head>
+
+<style type="text/css">
+
+
+
+
+
+
+.container2{
+  width: 444px;
+  margin: 0 auto;
+  padding-top: 2px;
+  padding-left: 88px;
+  float: left;
+  text-align: justify;
+}
+
+/* Creating columns is as simple as this: */
+
+
+
+#content {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+#list-left{
+	width: 200px;
+	float: left;
+	font-family: 'bebas_neueregular', helvetica;
+	font-size: 20px;
+	    text-align: left;
+
+}
+
+
+#list-right{
+	width: 200px;
+	float: left;
+	font-family: 'bebas_neueregular', helvetica;
+	font-size: 20px;
+
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+
+
+
+</style>
+
+
+<script>
+
+
+
+
+</script>
+
+
+<body>
+
+	<script type="text/javascript" src="../js/main.js"></script>
+
+
+
+<div id="logo">
+<a href="kobolt.html"><img alt="kobolt magazine logo" src="../images/4logo.png"></a>
+</div>
+
+
+
+
+
+<div id="navo">
+    <!--Nav start -->
+  <ul>
+    <a href="kobolt.html">KOBOLT</a>
+    <a href="tidningen.html">TIDNINGEN</a>
+    <a href="ansok.html" >ANSÖK</a>
+    <a href="projekt.html">PROJEKT</a>
+    <a class="active" href="samarbeten.html">SAMARBETEN</a>
+    <a href="kontakt.html">KONTAKT</a>
+
+    
+  </ul>
+  </div>
+
+
+<div id="content">
+
+
+<div id="list-left">
+
+<ul>
+   <li> <a id="show" class="active" href="#">VILL DU SAMARBETA</a> </li>
+   <li> <a id="hide" href="#">TIDIGARE SAMARBETEN</a> </li>
+
+</ul>
+
+
+</div>
+
+<div class="container">
+	<p>Kobolt Magazine söker alltid nya samarbeten. Vi fungerar som en plattform och en språngbräda för unga kreatörer runt omkring i Sverige med fokus i Stockholm. Vill du på något sätt samarbeta med Kobolt? Har du någon idé på hur vi skulle kunna utveckla projektet? Tror du att du skulle kunna vara en tillgång? Eller skulle du vilja stödja oss i vårt arbete?<br>
+
+Vi är tycker det är jättekul med alla typer av samarbeten och bidrag! <br> Tveka inte att <a class="textlink" href="mailto:info@koboltmagazine.com">kontakta oss</a>.
+ </p>
+</div>
+
+
+
+
+<div class="container2">
+
+<p>
+Februari 2014, Stockholm Stad.  Vi jobbade tillsammans med Hanna Knapp från Stockholm Stad i ett arbete för att främja unga oetablerade kreatörer i det tredje numret av Kobolt Magazine. Vi hade en release för tidningen på restaurangen Taverna Brillo där tidningen fanns att hitta och möjlighet att träffa de unga kreatörerna och diskutera deras verk var möjligt.  
+</p>
+
+</div>
+
+
+
+
+</div>
+
+</body>
+</html>
