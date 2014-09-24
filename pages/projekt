@@ -1,0 +1,238 @@
+<html>
+<head>
+	<title>Kobolt Magazine| Projekt</title>
+
+	<meta charset="utf-8"/>
+	<meta name="description" content="Projekt. Kobolt Magazine">
+    <meta name="author" content="diegofria.com" />
+    <meta name="keywords" content="kobolt, magazine, art, stockholm, sweden"/>
+
+    <link href="../css/default.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<link rel="icon" 
+      href="../images/favicon.ico">
+
+
+</head>
+
+<style type="text/css">
+
+
+
+
+
+.container{
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 2px;
+	padding-left: 88px;
+	float: left;
+	text-align: justify;
+  overflow: hidden;
+
+}
+
+
+.container2{
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 2px;
+  padding-left: 88px;
+  float: left;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.container3{
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 2px;
+  padding-left: 88px;
+  float: left;
+  text-align: justify;
+    overflow: hidden;
+}
+
+
+
+
+
+#content {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+#list-left{
+	width: 205px;
+	float: left;
+	font-family: 'bebas_neueregular', helvetica;
+	font-size: 20px;
+	text-align: left;
+}
+
+
+#list-right{
+	width: 200px;
+	float: left;
+
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.pics {
+	width: 300px;
+}
+
+
+
+</style>
+
+
+
+
+
+<body>
+
+	<script type="text/javascript" src="../js/main.js"></script>
+
+
+
+<div id="logo">
+<a href="kobolt.html"><img  alt="kobolt magazine logo" src="../images/4logo.png"></a>
+</div>
+
+
+
+
+
+<div id="navo">
+    <!--Nav start -->
+  <ul>
+    <a href="kobolt.html">KOBOLT</a>
+    <a href="tidningen.html">TIDNINGEN</a>
+    <a href="ansok.html" >ANSÖK</a>
+    <a class="active" href="projekt.html">PROJEKT</a>
+    <a href="samarbeten.html">SAMARBETEN</a>
+    <a href="kontakt.html">KONTAKT</a>
+
+    
+  </ul>
+  </div>
+
+
+
+
+
+
+<div id="content">
+
+<div id="list-left">
+
+<ul>
+   <li> <a id="show" class="active" href="#">RELEASE FEST BRILLO</a> </li>
+   <li> <a id="hide" href="#">RELEASE FEST REVENUE</a> </li>
+   <li> <a id="third" href="#">RELEASE FEST Konsthall</a> </li>
+
+</ul>
+
+
+
+
+</div>
+
+<div class="container">
+	<p>När vi släppte vårt tredje nummer hade vi releasefest på <a class="textlink" href="http://tavernabrillo.se" target="blank">Taverna Brillo</a>
+, Sturegatan 6. Baba Stiltz spelade musik och Jakob Möller hade gjort visuals. Evnetet hade ca. 200 deltagare och interaktionen i en etablerad restauranglokal gav en större spridning för Kobolt. </p>
+</div>
+
+
+
+
+<div class="container2">
+<p>
+När vi släppte vårt andra nummer ordnade vi en releasefest på Revenue St Eriksgatan 79. Andreas Bertman och Elis Burrau spelade musik. <br>Eventet hade ca. 150 gäster
+</p>
+</div>
+
+
+<div class="container3">
+<p>
+Release fest <a class="textlink" href="http://marabouparken.se/" target="blank">Marabouparken Konsthall</a> 
+I samband med det fjärde numret av Kobolt Magazine anordnade vi en vernissage där vi ställde ut fyra konstnärer. Två av dem, Karin Kirchmeir och Hanna Andersson Åsman har deltagit i tidigare nummer av tidningen. Jakob Möller (vars videokonst visades på relasefesten på restaurangen Taverna Brillo) var en av kreatörerna som visas i det fjärde numret, tillsammans med illustratören och fotografen Ludwig Landström som också går att hitta i Kobolt Magazine no.4. 
+Under kvällen spelade sex dj’s. Baba Stiltz inledde kvällen följt av Andreas Bertman, Gunnar Wibom tillsammans med Simon Pollack Sarnecki och sist men inte minst Dj-duon Nanna & Hannah. 
+</p>
+</div>
+
+
+
+
+
+<div id="list-right">
+
+<div id="slider">
+  <a href="#" class="control_next">></a>
+  <a href="#" class="control_prev"><</a>
+  <ul>
+    <li><img class="pics" src="../images/brillo1.jpg"></li>
+    <li><img class="pics" src="../images/brillo2.jpg"></li>
+    <li><img class="pics" src="../images/brillo3.jpg"></li>
+    <li><img class="pics" src="../images/brillo4.jpg"></li>
+    <li><img class="pics" src="../images/brillo5.jpg"></li>
+
+  </ul>  
+</div>
+
+</div> 
+
+<div id="slider2">
+  <a href="#" class="control_next">></a>
+  <a href="#" class="control_prev"><</a>
+  <ul>
+    <li><img class="pics" src="../images/revenue2.jpg"></li>
+    <li><img class="pics" src="../images/revenue1.jpg"></li>
+    <li><img class="pics" src="../images/revenue3.jpg"></li>
+    <li><img class="pics" src="../images/revenue4.jpg"></li>
+    <li><img class="pics" src="../images/revenue5.jpg"></li>
+    <li><img class="pics" src="../images/revenue6.jpg"></li>
+    <li><img class="pics" src="../images/revenue7.jpg"></li>
+    <li><img class="pics" src="../images/revenue8.jpg"></li>
+    <li><img class="pics" src="../images/revenue9.jpg"></li>
+    <li><img class="pics" src="../images/revenue10.jpg"></li>
+  </ul>  
+</div>
+
+
+
+
+<div id="slider3">
+  <a href="#" class="control_next">></a>
+  <a href="#" class="control_prev"><</a>
+  <ul>
+    <li><img class="pics" src="../images/sundsvall1.jpg"></li>
+    <li><img class="pics" src="../images/sundsvall2.jpg"></li>
+    <li><img class="pics" src="../images/sundsvall3.jpg"></li>
+    <li><img class="pics" src="../images/sundsvall4.jpg"></li>
+  </ul>
+</div>
+
+
+
+</div> 
+
+
+</div> 
+
+
+
+</div>
+
+</body>
+</html>
